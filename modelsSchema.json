@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Model Listing",
+  "description": "A list of models by category",
+  "type": "object",
+  "properties": {
+    "iphone": {
+      "type": "array",
+      "description": "List of iPhone models",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the model"
+          },
+          "partNumber": {
+            "type": "string",
+            "description": "Part number of the model"
+          },
+          "family": {
+            "type": "string",
+            "description": "Family of the model"
+          },
+          "imageKey": {
+            "type": "string",
+            "description": "Apple CDN image key"
+          },
+          "price": {
+            "type": "number",
+            "description": "Price of the model"
+          }
+        }
+      }
+    }
+  }
+}
