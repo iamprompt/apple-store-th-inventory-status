@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "dev:update": "tsx src/scripts/update.ts"
+    "dev:update": "tsx scripts/update.ts"
   },
   "keywords": [],
   "author": "",
