@@ -61,11 +61,19 @@ import { GET_AOS_FULFILLMENT } from './utils/helpers'
     }
 
     // console.log(productAvailability)
-    await writeFile(
-      './availability.json',
-      JSON.stringify(productAvailability, null, 2)
-    )
   }
+
+  await writeFile(
+    './availability.json',
+    JSON.stringify(
+      {
+        updatedAt: new Date().toISOString(),
+        items: productAvailability,
+      },
+      null,
+      2
+    )
+  )
 })()
 
 interface IProductAvailability extends Model {
