@@ -48,6 +48,6 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           author_name: 'iamPrompt GH Actions'
-          author_email: 'github-actions@iamprompt.me'
-          message: 'Update availability'
+          author_email: 'github-actions[bot]@users.noreply.github.com'
+          message: '[Schedule] Update availability'
           add: './availability.json'
