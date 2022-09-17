@@ -1,3 +1,4 @@
+name: Update Availability
 on:
   push:
     branches:
@@ -5,7 +6,7 @@ on:
   schedule:
     - cron: '30 * * * *'
   repository_dispatch:
-    types: [update_schedule]
+    types: [update_availability]
 
 jobs:
   update_availability:
