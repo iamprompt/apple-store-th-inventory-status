@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'models.json'
   schedule:
     - cron: '30 * * * *'
   repository_dispatch:
