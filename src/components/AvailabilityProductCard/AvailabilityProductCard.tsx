@@ -10,6 +10,7 @@ const AvailabilityProductCard: FC<IAvailabilityModels['items'][0]> = ({
   color,
   storage,
   imageKey,
+  price,
 }) => {
   const isAvailable = useMemo(
     () => availability.stores.some((store) => store.isAvailable),
@@ -37,6 +38,12 @@ const AvailabilityProductCard: FC<IAvailabilityModels['items'][0]> = ({
         </h2>
         <p className="text-center text-gray-600">
           {MODEL_COLOR[color]} {MODEL_CAPACITY[storage]}
+        </p>
+        <p className="text-center text-gray-600 mt-3">
+          {new Intl.NumberFormat('th-TH', {
+            style: 'currency',
+            currency: 'THB',
+          }).format(price)}
         </p>
       </div>
       <div>
