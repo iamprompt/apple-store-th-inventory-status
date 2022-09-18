@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "updatedAt": "2022-09-18T00:45:35.909Z",
+=======
+  "updatedAt": "2022-09-18T00:44:24.815Z",
+>>>>>>> cec17e8 (add color and storage for filter purpose)
   "items": [
     {
       "name": "iPhone 14 สตาร์ไลท์ (128GB)",
@@ -7,6 +11,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-starlight-select-202209",
       "price": 32900,
+      "color": "starlight",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -31,6 +37,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-red-select-202209",
       "price": 32900,
+      "color": "product_red",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -55,6 +63,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-red-select-202209",
       "price": 36900,
+      "color": "product_red",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -79,6 +89,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-red-select-202209",
       "price": 45900,
+      "color": "product_red",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -103,6 +115,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-starlight-select-202209",
       "price": 36900,
+      "color": "starlight",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -127,6 +141,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-blue-select-202209",
       "price": 32900,
+      "color": "blue",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -151,6 +167,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-midnight-select-202209",
       "price": 45900,
+      "color": "midnight",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -175,6 +193,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-midnight-select-202209",
       "price": 36900,
+      "color": "midnight",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -199,6 +219,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-midnight-select-202209",
       "price": 32900,
+      "color": "midnight",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -223,6 +245,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-purple-select-202209",
       "price": 32900,
+      "color": "purple",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -247,6 +271,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-starlight-select-202209",
       "price": 45900,
+      "color": "starlight",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -271,6 +297,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-purple-select-202209",
       "price": 36900,
+      "color": "purple",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -295,6 +323,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-blue-select-202209",
       "price": 45900,
+      "color": "blue",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -319,6 +349,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-purple-select-202209",
       "price": 45900,
+      "color": "purple",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -343,6 +375,8 @@
       "family": "iphone14",
       "imageKey": "iphone-14-blue-select-202209",
       "price": 36900,
+      "color": "blue",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -367,6 +401,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-blue-select-202209",
       "price": 37900,
+      "color": "blue",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -391,6 +427,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-blue-select-202209",
       "price": 50900,
+      "color": "blue",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -415,6 +453,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-red-select-202209",
       "price": 41900,
+      "color": "product_red",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -439,6 +479,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-starlight-select-202209",
       "price": 37900,
+      "color": "starlight",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -463,6 +505,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-purple-select-202209",
       "price": 41900,
+      "color": "purple",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -487,6 +531,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-starlight-select-202209",
       "price": 50900,
+      "color": "starlight",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -511,6 +557,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-midnight-select-202209",
       "price": 50900,
+      "color": "midnight",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -535,6 +583,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-purple-select-202209",
       "price": 37900,
+      "color": "purple",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -559,6 +609,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-midnight-select-202209",
       "price": 41900,
+      "color": "midnight",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -583,6 +635,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-purple-select-202209",
       "price": 50900,
+      "color": "purple",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -607,6 +661,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-red-select-202209",
       "price": 37900,
+      "color": "product_red",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -631,6 +687,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-starlight-select-202209",
       "price": 41900,
+      "color": "starlight",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -655,6 +713,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-blue-select-202209",
       "price": 41900,
+      "color": "blue",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -679,6 +739,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-red-select-202209",
       "price": 50900,
+      "color": "product_red",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -703,6 +765,8 @@
       "family": "iphone14plus",
       "imageKey": "iphone-14-plus-midnight-select-202209",
       "price": 37900,
+      "color": "midnight",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -727,6 +791,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-spaceblack-select",
       "price": 45900,
+      "color": "spaceblack",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -751,6 +817,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-deeppurple-select",
       "price": 54900,
+      "color": "deeppurple",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -775,6 +843,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-silver-select",
       "price": 63900,
+      "color": "silver",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -799,6 +869,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-deeppurple-select",
       "price": 63900,
+      "color": "deeppurple",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -823,6 +895,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-silver-select",
       "price": 41900,
+      "color": "silver",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -847,6 +921,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-gold-select",
       "price": 45900,
+      "color": "gold",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -871,6 +947,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-spaceblack-select",
       "price": 54900,
+      "color": "spaceblack",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -895,6 +973,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-gold-select",
       "price": 63900,
+      "color": "gold",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -919,6 +999,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-spaceblack-select",
       "price": 41900,
+      "color": "spaceblack",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -943,6 +1025,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-silver-select",
       "price": 54900,
+      "color": "silver",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -967,6 +1051,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-deeppurple-select",
       "price": 41900,
+      "color": "deeppurple",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -991,6 +1077,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-deeppurple-select",
       "price": 45900,
+      "color": "deeppurple",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -1015,6 +1103,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-silver-select",
       "price": 45900,
+      "color": "silver",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -1039,6 +1129,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-gold-select",
       "price": 54900,
+      "color": "gold",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -1063,6 +1155,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-gold-select",
       "price": 41900,
+      "color": "gold",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -1087,6 +1181,8 @@
       "family": "iphone14pro",
       "imageKey": "iphone-14-pro-spaceblack-select",
       "price": 63900,
+      "color": "spaceblack",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -1111,6 +1207,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-deeppurple-select",
       "price": 57900,
+      "color": "deeppurple",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -1135,6 +1233,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-spaceblack-select",
       "price": 66900,
+      "color": "spaceblack",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -1159,6 +1259,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-silver-select",
       "price": 57900,
+      "color": "silver",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -1183,6 +1285,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-spaceblack-select",
       "price": 48900,
+      "color": "spaceblack",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -1207,6 +1311,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-gold-select",
       "price": 48900,
+      "color": "gold",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -1231,6 +1337,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-gold-select",
       "price": 66900,
+      "color": "gold",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -1255,6 +1363,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-deeppurple-select",
       "price": 48900,
+      "color": "deeppurple",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
@@ -1279,6 +1389,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-gold-select",
       "price": 44900,
+      "color": "gold",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -1303,6 +1415,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-spaceblack-select",
       "price": 44900,
+      "color": "spaceblack",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -1327,6 +1441,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-silver-select",
       "price": 66900,
+      "color": "silver",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -1351,6 +1467,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-deeppurple-select",
       "price": 66900,
+      "color": "deeppurple",
+      "storage": "1tb",
       "availability": {
         "stores": [
           {
@@ -1375,6 +1493,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-gold-select",
       "price": 57900,
+      "color": "gold",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -1399,6 +1519,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-deeppurple-select",
       "price": 44900,
+      "color": "deeppurple",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -1423,6 +1545,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-spaceblack-select",
       "price": 57900,
+      "color": "spaceblack",
+      "storage": "512gb",
       "availability": {
         "stores": [
           {
@@ -1447,6 +1571,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-silver-select",
       "price": 44900,
+      "color": "silver",
+      "storage": "128gb",
       "availability": {
         "stores": [
           {
@@ -1471,6 +1597,8 @@
       "family": "iphone14promax",
       "imageKey": "iphone-14-pro-max-silver-select",
       "price": 48900,
+      "color": "silver",
+      "storage": "256gb",
       "availability": {
         "stores": [
           {
