@@ -45,7 +45,7 @@ const App = () => {
   if (!data) return <div>loading...</div>
 
   return (
-    <div className="px-5 py-10">
+    <div className="px-5 py-8">
       <div className="text-center mb-10 space-y-3">
         <h1 className="text-4xl font-bold">
           สถานะ iPhone 14 ใน Apple Store ประเทศไทย
@@ -89,6 +89,35 @@ const App = () => {
               <AvailabilityProductCard {...model} />
             </a>
           ))}
+      </div>
+      <div>
+        <p className="text-center mt-10 text-sm">
+          ข้อมูลจาก Apple Store ประเทศไทย อัปเดตล่าสุดเมื่อ{' '}
+          {dayjs(data.updatedAt).format('DD MMMM BBBB เวลา HH:mm:ss น.')}
+        </p>
+        <p className="text-center text-sm">
+          ข้อมูลนี้อาจไม่สมบูรณ์หรือผิดพลาด กรุณาตรวจสอบบนหน้าเว็บ{' '}
+          <a
+            href="https://www.facebook.com/iphonethailand"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[#0071E3]"
+          >
+            Apple Online Store
+          </a>{' '}
+          อีกครั้ง
+        </p>
+        <p className="text-center text-sm my-5">
+          Made with ❤️ by{' '}
+          <a
+            href="https://www.facebook.com/wearedprompt"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[#0071E3]"
+          >
+            iamPrompt
+          </a>
+        </p>
       </div>
     </div>
   )
