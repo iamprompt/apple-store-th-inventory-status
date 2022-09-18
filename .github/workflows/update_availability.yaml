@@ -56,3 +56,5 @@ jobs:
           author_email: 'github-actions[bot]@users.noreply.github.com'
           message: '[Schedule] Update availability'
           add: './availability.json'
+          pull: '--rebase --autostash'
+          push: true
