@@ -58,10 +58,7 @@ const App = () => {
           <button
             onClick={() => setFilter(!filter)}
             className={clsx(
-              'border-2 border-[#0071E3] text-white py-2 px-3 rounded-full',
-              filter
-                ? 'bg-[#0071E3] hover:bg-gray-100 hover:text-black'
-                : 'bg-gray-100 text-black hover:bg-[#0071E3] hover:text-white'
+              'text-white py-2 px-3 rounded-full bg-[#0071E3] hover:bg-[#147CE5]'
             )}
           >
             {filter ? 'แสดงทั้งหมด' : 'แสดงเฉพาะที่มีสินค้า'}
