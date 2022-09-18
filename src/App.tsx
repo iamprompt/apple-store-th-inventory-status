@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import useSWR from 'swr'
 import { IAvailabilityModels } from './types'
 import { AVAILABILITY_MODELS_URL, fetcher, dayjs } from './utils'
@@ -11,12 +11,45 @@ const MODEL_FAMILY = [
   'iphone14',
 ]
 
+const MODEL_COLOR = [
+  // 14 Pro Model
+  'deepblue',
+  'gold',
+  'silver',
+  'spaceblack',
+
+  // 14 Model
+  'blue',
+  'purple',
+  'midnight',
+  'starlight',
+  'product_red',
+]
+
+const MODEL_CAPACITY = ['128gb', '256gb', '512gb']
+
 const App = () => {
   const { data, error } = useSWR<IAvailabilityModels>(
     AVAILABILITY_MODELS_URL,
     fetcher
   )
-  const [filter, setFilter] = useState(false)
+  const [filter, setFilter] = useState<boolean>(true)
+
+  const availabilityModel = useMemo(() => {
+    if (!data) return null
+    return data.items
+      .sort(
+        (a, b) =>
+          MODEL_CAPACITY.indexOf(a.storage) - MODEL_CAPACITY.indexOf(b.storage)
+      )
+      .sort(
+        (a, b) => MODEL_COLOR.indexOf(a.color) - MODEL_COLOR.indexOf(b.color)
+      )
+      .sort(
+        (a, b) =>
+          MODEL_FAMILY.indexOf(a.family) - MODEL_FAMILY.indexOf(b.family)
+      )
+  }, [data])
 
   if (error) return <div>failed to load</div>
 
@@ -47,13 +80,8 @@ const App = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
-        {data.items
-          .sort(
-            (a, b) =>
-              MODEL_FAMILY.findIndex((family) => family === a.family) -
-              MODEL_FAMILY.findIndex((family) => family === b.family)
-          )
-          .filter(
+        {availabilityModel
+          ?.filter(
             (item) =>
               item.availability.stores.some((store) => store.isAvailable) ||
               !filter

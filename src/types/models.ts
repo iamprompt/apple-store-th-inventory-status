@@ -4,6 +4,8 @@ interface IProductAvailability {
   family: string
   imageKey: string
   price: number
+  color: string
+  storage: string
   availability: {
     stores: {
       storeName: string
