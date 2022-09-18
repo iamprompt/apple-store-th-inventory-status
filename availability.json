@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2022-09-18T12:16:25.536Z",
+  "updatedAt": "2022-09-18T12:18:34.551Z",
   "items": [
     {
       "name": "iPhone 14 สตาร์ไลท์ (128GB)",
@@ -14,7 +14,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -40,7 +40,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -66,7 +66,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -92,7 +92,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -118,7 +118,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -144,7 +144,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -170,7 +170,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -196,7 +196,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -222,7 +222,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -274,7 +274,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -300,7 +300,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -326,7 +326,7 @@
           {
             "storeName": "Iconsiam",
             "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "status": "พร้อมจำหน่าย วันพรุ่งนี้"
           },
           {
             "storeName": "Central World",
@@ -980,8 +980,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           }
         ],
         "delivery": {
