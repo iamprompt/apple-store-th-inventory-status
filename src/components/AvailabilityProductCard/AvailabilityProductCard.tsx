@@ -28,7 +28,7 @@ const AvailabilityProductCard: FC<IAvailabilityModels['items'][0]> = ({
           src={`https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/${imageKey}?fmt=png-alpha`}
           alt={name}
           className={clsx(
-            'aspect-square w-full max-[300px]',
+            'aspect-square w-full max-w-[300px]',
             isAvailable ? 'filter grayscale-0' : 'filter grayscale'
           )}
         />
