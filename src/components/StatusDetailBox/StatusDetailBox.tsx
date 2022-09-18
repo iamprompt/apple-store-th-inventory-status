@@ -22,7 +22,7 @@ const StatusDetailBox: FC<IStatusDetailBoxProps> = ({
       )}
     >
       <div className="font-semibold">{title}</div>
-      {isAvailable && <div>{status}</div>}
+      <div>{status}</div>
     </div>
   )
 }
