@@ -1,11 +1,13 @@
+import { MODEL_CAPACITY, MODEL_COLOR, MODEL_FAMILY } from '../utils/const'
+
 interface IProductAvailability {
   name: string
   partNumber: string
-  family: string
+  family: keyof typeof MODEL_FAMILY
   imageKey: string
   price: number
-  color: string
-  storage: string
+  color: keyof typeof MODEL_COLOR
+  storage: keyof typeof MODEL_CAPACITY
   availability: {
     stores: {
       storeName: string

@@ -1,32 +1,10 @@
 import clsx from 'clsx'
 import { useMemo, useState } from 'react'
 import useSWR from 'swr'
+import { AvailabilityProductCard } from './components'
 import { IAvailabilityModels } from './types'
 import { AVAILABILITY_MODELS_URL, fetcher, dayjs } from './utils'
-
-const MODEL_FAMILY = [
-  'iphone14promax',
-  'iphone14pro',
-  'iphone14plus',
-  'iphone14',
-]
-
-const MODEL_COLOR = [
-  // 14 Pro Model
-  'deepblue',
-  'gold',
-  'silver',
-  'spaceblack',
-
-  // 14 Model
-  'blue',
-  'purple',
-  'midnight',
-  'starlight',
-  'product_red',
-]
-
-const MODEL_CAPACITY = ['128gb', '256gb', '512gb']
+import { MODEL_CAPACITY, MODEL_COLOR, MODEL_FAMILY } from './utils/const'
 
 const App = () => {
   const { data, error } = useSWR<IAvailabilityModels>(
@@ -40,14 +18,18 @@ const App = () => {
     return data.items
       .sort(
         (a, b) =>
-          MODEL_CAPACITY.indexOf(a.storage) - MODEL_CAPACITY.indexOf(b.storage)
-      )
-      .sort(
-        (a, b) => MODEL_COLOR.indexOf(a.color) - MODEL_COLOR.indexOf(b.color)
+          Object.keys(MODEL_CAPACITY).indexOf(a.storage) -
+          Object.keys(MODEL_CAPACITY).indexOf(b.storage)
       )
       .sort(
         (a, b) =>
-          MODEL_FAMILY.indexOf(a.family) - MODEL_FAMILY.indexOf(b.family)
+          Object.keys(MODEL_COLOR).indexOf(a.color) -
+          Object.keys(MODEL_COLOR).indexOf(b.color)
+      )
+      .sort(
+        (a, b) =>
+          Object.keys(MODEL_FAMILY).indexOf(a.family) -
+          Object.keys(MODEL_FAMILY).indexOf(b.family)
       )
   }, [data])
 
@@ -87,52 +69,7 @@ const App = () => {
               !filter
           )
           .map((model) => (
-            <div
-              key={model.partNumber}
-              className={clsx(
-                'bg-gray-100 rounded-2xl overflow-hidden flex flex-col shadow-lg hover:shadow-xl border border-gray-150',
-                model.availability.stores.some((store) => store.isAvailable) &&
-                  'bg-green-50'
-              )}
-            >
-              <div className="p-3 flex flex-col items-center justify-center h-[350px]">
-                <img
-                  src={`https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/${model.imageKey}?fmt=png-alpha`}
-                  alt={model.name}
-                />
-                <h2 className="font-bold text-xl text-center my-2">
-                  {model.name}
-                </h2>
-              </div>
-              <div className="">
-                <div
-                  className={clsx(
-                    'p-2 m-4 rounded-xl border-2 text-center h-16 items-center justify-center flex flex-col',
-                    model.availability.stores[1].isAvailable
-                      ? ' bg-[#333333] border-[#333333] opacity-100 text-white'
-                      : 'border-gray-300 bg-gray-100 opacity-50'
-                  )}
-                >
-                  <div className="font-semibold">Apple Central World</div>
-                  {model.availability.stores[1].isAvailable && (
-                    <div>{model.availability.stores[1].status}</div>
-                  )}
-                </div>
-                <div
-                  className={clsx(
-                    'p-2 m-4 rounded-xl border-2 text-center h-16 items-center justify-center flex flex-col',
-                    model.availability.stores[0].isAvailable
-                      ? ' bg-[#333333] border-[#333333] opacity-100 text-white'
-                      : 'border-gray-300 bg-gray-100 opacity-50'
-                  )}
-                >
-                  <div className="font-semibold">Apple Iconsiam</div>
-                  {model.availability.stores[0].isAvailable && (
-                    <div>{model.availability.stores[0].status}</div>
-                  )}
-                </div>
-              </div>
-            </div>
+            <AvailabilityProductCard key={model.partNumber} {...model} />
           ))}
       </div>
     </div>
