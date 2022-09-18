@@ -54,7 +54,7 @@ import { GET_AOS_FULFILLMENT } from './utils/helpers'
             status:
               iphoneResult.deliveryMessage[
                 partNo
-              ].regular?.deliveryOptionMessages[0].displayName?.trim(),
+              ].regular?.deliveryOptions[0].date?.trim(),
           },
         },
       })

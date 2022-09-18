@@ -54,6 +54,7 @@ export type DeliveryMessageInfoVariant = {
 export type DeliveryOptionMessage = {
   displayName: string
   inHomeSetup: string
+  encodedUpperDateString: string
 }
 
 export type DeliveryOption = {

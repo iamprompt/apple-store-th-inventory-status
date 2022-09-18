@@ -34,6 +34,7 @@ export const GET_AOS_FULFILLMENT = async ({
         'mts.1': 'sticky',
         little: false,
         location: '10600',
+        postalCode: '10600',
         ...args,
         ...parts,
       },
