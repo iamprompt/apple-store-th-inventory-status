@@ -28,7 +28,7 @@ const AvailabilityProductCard: FC<IAvailabilityModels['items'][0]> = ({
           src={`https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/${imageKey}?fmt=png-alpha`}
           alt={name}
           className={clsx(
-            'aspect-square',
+            'aspect-square w-full max-[300px]',
             isAvailable ? 'filter grayscale-0' : 'filter grayscale'
           )}
         />
@@ -64,6 +64,19 @@ const AvailabilityProductCard: FC<IAvailabilityModels['items'][0]> = ({
           <div className="font-semibold">Apple Iconsiam</div>
           {availability.stores[0].isAvailable && (
             <div>{availability.stores[0].status}</div>
+          )}
+        </div>
+        <div
+          className={clsx(
+            'p-2 m-4 rounded-xl border-2 text-center h-16 items-center justify-center flex flex-col',
+            !!availability.delivery.status
+              ? ' bg-[#333333] border-[#333333] opacity-100 text-white'
+              : 'border-gray-300 bg-gray-100 opacity-50'
+          )}
+        >
+          <div className="font-semibold">การจัดส่ง</div>
+          {availability.delivery.status && (
+            <div>{availability.delivery.status}</div>
           )}
         </div>
       </div>

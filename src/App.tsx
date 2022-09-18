@@ -4,7 +4,14 @@ import useSWR from 'swr'
 import { AvailabilityProductCard } from './components'
 import { IAvailabilityModels } from './types'
 import { AVAILABILITY_MODELS_URL, fetcher, dayjs } from './utils'
-import { MODEL_CAPACITY, MODEL_COLOR, MODEL_FAMILY } from './utils/const'
+import {
+  MODEL_CAPACITY,
+  MODEL_COLOR,
+  MODEL_COLOR_URL_PARAM,
+  MODEL_FAMILY,
+  MODEL_FAMILY_URL_PARAM,
+  MODEL_SCREEN_SIZE_URL_PARAM,
+} from './utils/const'
 
 const App = () => {
   const { data, error } = useSWR<IAvailabilityModels>(
@@ -69,7 +76,18 @@ const App = () => {
               !filter
           )
           .map((model) => (
-            <AvailabilityProductCard key={model.partNumber} {...model} />
+            <a
+              key={model.partNumber}
+              href={`https://www.apple.com/th/shop/buy-iphone/${
+                MODEL_FAMILY_URL_PARAM[model.family]
+              }/${MODEL_SCREEN_SIZE_URL_PARAM[model.family]}-${model.storage}-${
+                MODEL_COLOR_URL_PARAM[model.color]
+              }`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AvailabilityProductCard {...model} />
+            </a>
           ))}
       </div>
     </div>

@@ -26,3 +26,32 @@ export enum MODEL_CAPACITY {
   '512gb' = '512GB',
   '1tb' = '1TB',
 }
+
+export enum MODEL_FAMILY_URL_PARAM {
+  iphone14promax = 'iphone-14-pro',
+  iphone14pro = 'iphone-14-pro',
+  iphone14plus = 'iphone-14',
+  iphone14 = 'iphone-14',
+}
+
+export enum MODEL_SCREEN_SIZE_URL_PARAM {
+  iphone14promax = 'จอภาพขนาด-6.7-นิ้ว',
+  iphone14pro = 'จอภาพขนาด-6.1-นิ้ว',
+  iphone14plus = 'จอภาพขนาด-6.7-นิ้ว',
+  iphone14 = 'จอภาพขนาด-6.1-นิ้ว',
+}
+
+export enum MODEL_COLOR_URL_PARAM {
+  // 14 Pro Model
+  deeppurple = 'ม่วงเข้ม',
+  gold = 'ทอง',
+  silver = 'เงิน',
+  spaceblack = 'ดำสเปซแบล็ค',
+
+  // 14 Model
+  blue = 'ฟ้า',
+  purple = 'ม่วง',
+  midnight = 'มิดไนท์',
+  starlight = 'สตาร์ไลท์',
+  product_red = 'แดง',
+}
