@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2022-09-28T00:10:37.338Z",
+  "updatedAt": "2022-09-28T00:15:40.833Z",
   "items": [
     {
       "name": "iPhone 14 สตาร์ไลท์ (128GB)",
@@ -278,8 +278,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           }
         ],
         "delivery": {
@@ -792,12 +792,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -818,12 +818,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -844,12 +844,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "storeName": "Central World",
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -870,12 +870,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -896,12 +896,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -922,12 +922,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -948,12 +948,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "storeName": "Central World",
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -974,12 +974,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -1000,12 +1000,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
+            "storeName": "Central World",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -1026,12 +1026,12 @@
       "availability": {
         "stores": [
           {
-            "storeName": "Iconsiam",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "storeName": "Central World",
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           },
           {
-            "storeName": "Central World",
+            "storeName": "Iconsiam",
             "isAvailable": false,
             "status": "ยังไม่พร้อมให้รับสินค้า"
           }
@@ -1162,8 +1162,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           }
         ],
         "delivery": {
