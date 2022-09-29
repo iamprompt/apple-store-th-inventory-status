@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2022-09-29T04:35:38.568Z",
+  "updatedAt": "2022-09-29T04:40:28.588Z",
   "items": [
     {
       "name": "iPhone 14 สตาร์ไลท์ (128GB)",
@@ -1006,8 +1006,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": false,
-            "status": "ยังไม่พร้อมให้รับสินค้า"
+            "isAvailable": true,
+            "status": "พร้อมจำหน่าย วันนี้"
           }
         ],
         "delivery": {
