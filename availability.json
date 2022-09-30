@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2022-09-30T17:05:40.180Z",
+  "updatedAt": "2022-09-30T17:10:32.613Z",
   "items": [
     {
       "name": "iPhone 14 สตาร์ไลท์ (128GB)",
@@ -278,8 +278,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -304,8 +304,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -330,8 +330,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย วันนี้"
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -356,8 +356,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -382,8 +382,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -408,8 +408,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -460,8 +460,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -486,8 +486,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -564,8 +564,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -590,8 +590,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -616,8 +616,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -642,8 +642,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -668,8 +668,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -694,8 +694,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
@@ -720,8 +720,8 @@
           },
           {
             "storeName": "Central World",
-            "isAvailable": true,
-            "status": "พร้อมจำหน่าย ศ. 7 ต.ค."
+            "isAvailable": false,
+            "status": "ยังไม่พร้อมให้รับสินค้า"
           }
         ],
         "delivery": {
